@@ -63,27 +63,27 @@ Payment information
 •	Issuing bank 
 # Business Rules
 These simple rules simulate how a production system might use the model.
-Fraud Probability	Decision:
-< 0.20-Approve
+# Fraud Probability	Decision:
+Below 0.20-Approve
 0.20–0.80-Manual Review
-> 0.80-Decline
+Above 0.80-Decline
 # Expected Challenges
 This project should address realistic challenges, including:
-•	Highly imbalanced data (fraud is rare) 
-•	Missing values 
-•	High-cardinality categorical variables (e.g., merchants, devices) 
-•	Time-dependent patterns 
-•	Concept drift (fraud tactics change over time) 
-•	Preventing data leakage 
+1. Highly imbalanced data (fraud is rare) 
+2. Missing values 
+3. High-cardinality categorical variables (e.g., merchants, devices) 
+4. Time-dependent patterns 
+5. Concept drift (fraud tactics change over time) 
+6. Preventing data leakage 
 # Tech Stack
 A practical stack would be:
-Language-Python
-Data manipulation-pandas, NumPy
-Visualization-Matplotlib, Plotly
-Modeling-scikit-learn, XGBoost or LightGBM
-Explainability-SHAP
-Experiment tracking-MLflow 
-Dashboard-Streamlit
-API-FastAPI
-Deployment-Docker + Render/Railway
+1. Language-Python
+2. Data manipulation-pandas, NumPy
+3. Visualization-Matplotlib, Plotly
+4. Modeling-scikit-learn, XGBoost or LightGBM
+5. Explainability-SHAP
+6. Experiment tracking-MLflow 
+7. Dashboard-Streamlit
+8. API-FastAPI
+9. Deployment-Docker + Render/Railway
 
